@@ -1,1 +1,0 @@
-1. the instances and results for the uRCPSPTT from  (Liu et al., 2021): https://github.com/njuora/urcpsptt
