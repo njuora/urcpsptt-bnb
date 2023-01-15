@@ -50,10 +50,6 @@ This repository is maintained by Ying Liu (liuyingsme@smail.nju.edu.cn) and Qian
 
 We study a project scheduling problem where unit-capacity resources and transfer times are involved, and propose a branch-and-bound algorithm to solve it. In the problem, each resource is unique and the time on transferring resources between activities is nonnegligible. The aim is to find a feasible solution consisting of a vector of activity start times and a resource transfer plan so that the project makespan is minimized. Our branch-and-bound algorithm uses a branching scheme to branch over all eligible activities to be scheduled at each node, and a scheduling method to decide the start time of next activity, which must be feasible and no earlier than the start time of the last scheduled activity. Based on the combination of the branching scheme and the scheduling method, five effective dominance rules are designed to speed up the exploration of the branch-and-bound tree. With the dominance rules, multiple identical solutions at different nodes are avoided and a large number of unpromising nodes are pruned. At each node, two lower bounds are computed, and an upper bound is produced by a heuristic using a series of priority rules. Extensive computational experiments are conducted on the benchmark instances of the problem. The results show that our exact algorithm performs significantly better than solving the existing mathematical models for the problem using either CPLEX or CP Optimizer.
 
-## Algorithm
-
-Please email the authors
-
 ## Instances
 
 - rcpsp: 2040 instances in the PSPLIB library
